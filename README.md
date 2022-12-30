@@ -1,10 +1,9 @@
 <h1>Descripción del proyecto</h1>
 
+<h3>Tecnologías utilizadas</h3>
 
-*[Nodejs](#índice)
+*[Nodejs]
 
-*[Reactjs](#índice)
+*[Reactjs]
 
-*[Socket.io](#índice)
-
-*[Nodejs](#índice)
+*[Socket.io]
