@@ -43,7 +43,6 @@ function Home() {
     <UserState>
 		<nav className="navbar bg-body-tertiary">
 			<div className="container-fluid">
-				<p><h5>Bienvenido {selected}</h5></p>
 				<a onClick={handleLogout} className='btn btn-outline-secondary'>Salir</a>
 			</div>
 		</nav>

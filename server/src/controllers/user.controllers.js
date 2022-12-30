@@ -34,14 +34,23 @@ export const createUserController=async(req,res)=>{
         username:req.body.username,
         password:req.password
     }
+    if(data.username||data.password){
+        const register = await User.createUser(data)
     
-    const register = await User.createUser(data)
-    
-    if(register.status==='error'){
-        res.status(501).json(register)
+        if(register.status==='error'){
+            res.status(200).json(register)
+        }else{
+            res.status(200).json(register)
+        }
+        
     }else{
-        res.status(200).json(register)
+        res.status(200).json({
+            status:"error"
+        })
     }
+    
+    
+    
     
 }
 

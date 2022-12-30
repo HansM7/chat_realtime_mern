@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import API from '../Utils/UserUtils'
 function Login() {
 
@@ -28,18 +28,21 @@ function Login() {
     
     return (
       <div className='col-md-6 ' style={{margin:'auto',marginTop:'50px'}}>
+		<h4>Inicio de sesión</h4>
 		<form onSubmit={(e)=>{handleSubmit(e)}}>
 			<div className="form-outline mb-4">
 				<input type="text" name='username' className="form-control" onChange={(e)=>{handleChangeForm(e)}} />
-				<label className="form-label" >Email address</label>
+				<label className="form-label" >Username</label>
 			</div>
 
 			<div className="form-outline mb-4">
 				<input type="password" name='password' className="form-control"  onChange={(e)=>{handleChangeForm(e)}}/>
 				<label className="form-label" >Password</label>
 			</div>
+			<button type="submit" className="btn btn-primary btn-block mb-4 ">Ingresar</button>
+			<br />
+			<Link className="btn btn-success  mb-4" to="/register"> Registrarse </Link>
 
-			<button type="submit" className="btn btn-primary btn-block mb-4">Ingresar</button>
 			
 		</form>
       </div>
