@@ -1,23 +1,10 @@
-<em>Descripción del proyecto</em>
+<h1>Descripción del proyecto</h1>
 
-*[Insignias](#insignias)
 
-*[Índice](#índice)
+*[Nodejs](#índice)
 
-*[Descripción del proyecto](#descripción-del-proyecto)
+*[Reactjs](#índice)
 
-*[Estado del proyecto](#Estado-del-proyecto)
+*[Socket.io](#índice)
 
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-
-*[Acceso al proyecto](#acceso-proyecto)
-
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
-
-*[Conclusión](#conclusión)
+*[Nodejs](#índice)
